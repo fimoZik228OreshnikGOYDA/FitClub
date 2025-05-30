@@ -1,0 +1,77 @@
+{
+    "users": {
+        "admin": {
+            "password": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+            "role": "admin"
+        },
+        "coach": {
+            "password": "e0f167bc84b881bc06f6884fb48e02f41dfc5579e25489db6c6bde238e4aed15",
+            "role": "coach"
+        }
+    },
+    "clients": [
+        {
+            "name": "qweqwe",
+            "surname": "qweqweq",
+            "patronymic": "weqeqweqew",
+            "phone": "79778717142",
+            "health_issues": "Нет: ",
+            "pass_type": "пользовательский",
+            "pass_end": "2025-05-30",
+            "group": "Группа 1",
+            "assigned_coach": "Иван Петров"
+        }
+    ],
+    "passes": [
+        {
+            "type": "неделя",
+            "duration_days": 7,
+            "price_per_day": 142
+        },
+        {
+            "type": "месяц",
+            "duration_days": 30,
+            "price_per_day": 100
+        },
+        {
+            "type": "год",
+            "duration_days": 365,
+            "price_per_day": 82
+        },
+        {
+            "type": "пользовательский",
+            "duration_days": null,
+            "price_per_day": 100
+        }
+    ],
+    "groups": {
+        "Группа 1": "Иван Петров",
+        "Группа 2": "Иван Петров",
+        "Группа 3": "Ольга Смирнова",
+        "Группа 4": "Александр Кузнецов"
+    },
+    "trainers": [
+        {
+            "name": "Иван Петров",
+            "qualification": "Мастер спорта",
+            "groups": [
+                "Группа 1",
+                "Группа 2"
+            ]
+        },
+        {
+            "name": "Ольга Смирнова",
+            "qualification": "Тренер высшей категории",
+            "groups": [
+                "Группа 3"
+            ]
+        },
+        {
+            "name": "Александр Кузнецов",
+            "qualification": "Личный тренер",
+            "groups": [
+                "Группа 4"
+            ]
+        }
+    ]
+}
